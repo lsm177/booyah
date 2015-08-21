@@ -44,8 +44,12 @@ adinfo:
   - set "ad.proxy.yahoo.size.carousel_profile_1.android" "10"
   - set "ad.proxy.yahoo.size.carousel_tclist_0.android" "10"
   - set "ad.proxy.yahoo.size.carousel_tclist_1.android" "10"
-  - set "ads.imp.tracking.url.template" "http://adback.tango.me/adtracker/v1/event?aduid=%ADUID%&uid=%UID%&type=imp&timestamp=%TIMESTAMP%&provider=%PROVIDER%&ad_type=%AD_TYPE%"
-  - set "ads.click.tracking.url.template" "http://adback.tango.me/adtracker/v1/event?aduid=%ADUID%&uid=%UID%&type=click&timestamp=%TIMESTAMP%&provider=%PROVIDER%&ad_type=%AD_TYPE%"
+  - set "ads.imp.tracking.url.template" "http://adback.tango.me/adtracker/v1/event?aduid=%ADUID%&uid=%UID%&type=imp&serve_ts=%TIMESTAMP%&provider=%PROVIDER%&ad_type=%AD_TYPE%"
+  - set "ads.click.tracking.url.template" "http://adback.tango.me/adtracker/v1/event?aduid=%ADUID%&uid=%UID%&type=click&serve_ts=%TIMESTAMP%&provider=%PROVIDER%&ad_type=%AD_TYPE%"
+  - set "ad.proxy.inmobi.ids.discovery.prod.ios" "9557497c241d4767ab6c652a7cdcb10e"
+  - set "ad.proxy.inmobi.ids.discovery.prod.android" "f56dcebb5a9346ea834acddce7ea06b4"
+  - set "ad.proxy.fb.ids.placeholder.ios" ""
+  - set "ad.proxy.fb.ids.placeholder.android" ""
   /local/tomcat/webapps/adinfo/WEB-INF/classes/mopubConfig.properties:
   - set "mopub.password.prod" "ENC[PKCS7,MIIBeQYJKoZIhvcNAQcDoIIBajCCAWYCAQAxggEhMIIBHQIBADAFMAACAQEwDQYJKoZIhvcNAQEBBQAEggEArA6uqdsBCtJpRMn3ISd0aeHPDYwAlRtjmTfcPwyYwDQaDeB1EYF3yhpY4eUE22efQxc80Up2K75WT+WWxV3F8s3Hdee1NOeN+emHrSsTVF9c6YbrDtiljuYdE56LWs0jJpDRdJ0eeXRXEMJHwMLzcxI3WmkSNxdnMMcEmIIEOI3ZRY2l2OoGGkFpSf+pXjcTMHxCHQpzyLZNJIyxOeEjO2reYy0shg2YsIexKfsLqXvX8ezcXPuN/qCd4Bldst47Sl6yQaZxXKhgGSNgQod5c6HssmXkuUsb07/Kb2HqpYl1syi8CFLBDaYwhMvYjEWDmcbMwhLovGAPMYGkvFDGYTA8BgkqhkiG9w0BBwEwHQYJYIZIAWUDBAEqBBAK/kXZBBl3/3yPKuKp0Uc2gBD5IF064dmaO07+nlYeXAkK]"
   /local/tomcat/webapps/adinfo/WEB-INF/classes/offerConfig.properties:
