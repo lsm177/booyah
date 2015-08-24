@@ -1,6 +1,6 @@
 ## generated
 ## branch: adinfo_3.18.170457-20150820135609_us0701-prod
-## comment: Auto generated configuration for production from staging configuration with configuration ID: adinfo:57ac77ad3f4b5d05b5bad5a6cd9b79bd00c34d2f
+## comment: OPS-13442
 
 adinfo:
   /local/tomcat/webapps/adinfo/WEB-INF/classes/database.properties:
@@ -48,8 +48,8 @@ adinfo:
   - set "ads.click.tracking.url.template" "http://adback.tango.me/adtracker/v1/event?aduid=%ADUID%&uid=%UID%&type=click&serve_ts=%TIMESTAMP%&provider=%PROVIDER%&ad_type=%AD_TYPE%"
   - set "ad.proxy.inmobi.ids.discovery.prod.ios" "9557497c241d4767ab6c652a7cdcb10e"
   - set "ad.proxy.inmobi.ids.discovery.prod.android" "f56dcebb5a9346ea834acddce7ea06b4"
-  - set "ad.proxy.fb.ids.placeholder.ios" ""
-  - set "ad.proxy.fb.ids.placeholder.android" ""
+  - set "ad.proxy.fb.ids.placeholder.ios" "137234499712326_594210867348018"
+  - set "ad.proxy.fb.ids.placeholder.android" "137234499712326_597387303697041"
   /local/tomcat/webapps/adinfo/WEB-INF/classes/mopubConfig.properties:
   - set "mopub.password.prod" "ENC[PKCS7,MIIBeQYJKoZIhvcNAQcDoIIBajCCAWYCAQAxggEhMIIBHQIBADAFMAACAQEwDQYJKoZIhvcNAQEBBQAEggEArA6uqdsBCtJpRMn3ISd0aeHPDYwAlRtjmTfcPwyYwDQaDeB1EYF3yhpY4eUE22efQxc80Up2K75WT+WWxV3F8s3Hdee1NOeN+emHrSsTVF9c6YbrDtiljuYdE56LWs0jJpDRdJ0eeXRXEMJHwMLzcxI3WmkSNxdnMMcEmIIEOI3ZRY2l2OoGGkFpSf+pXjcTMHxCHQpzyLZNJIyxOeEjO2reYy0shg2YsIexKfsLqXvX8ezcXPuN/qCd4Bldst47Sl6yQaZxXKhgGSNgQod5c6HssmXkuUsb07/Kb2HqpYl1syi8CFLBDaYwhMvYjEWDmcbMwhLovGAPMYGkvFDGYTA8BgkqhkiG9w0BBwEwHQYJYIZIAWUDBAEqBBAK/kXZBBl3/3yPKuKp0Uc2gBD5IF064dmaO07+nlYeXAkK]"
   /local/tomcat/webapps/adinfo/WEB-INF/classes/offerConfig.properties:
