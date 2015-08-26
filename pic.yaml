@@ -1,0 +1,41 @@
+## generated
+## branch: bigerator_3.18.167661-20150729175108_us0701-prod
+## comment: Map Service dump for Initial deploy.
+
+bigerator:
+  /local/tomcat/webapps/bigerator/WEB-INF/classes/local.properties:
+  - set "bigerator.redis.shard.executor.pool.size" "9000"
+  - set "bigerator.redis.shard.executor.queue.capacity" "1800"
+  - set "bigerator.lr.query.limit" "1000"
+  - set "bigerator.common.interests.query.limit" "500"
+  - set "bigerator.lasttimeseen.batch.get.limit" "500"
+  - set "bigerator.redis.shard.executor.timeout.ms" "250"
+  - set "bigerator.lr.batch.set.limit" "1000"
+  /local/tomcat/webapps/bigerator/WEB-INF/classes/redis.properties:
+  - set "redis.pool.minIdle" "50"
+  - set "redis.shard0.host" "us0701abg-cc001.0pjqqe.0001.usw2.cache.amazonaws.com"
+  - set "redis.shard1.host" "us0701abg-cc002.0pjqqe.0001.usw2.cache.amazonaws.com"
+  - set "redis.shard3.host" "us0701abg-cc004.0pjqqe.0001.usw2.cache.amazonaws.com"
+  - set "redis.shard4.host" "us0701abg-cc005.0pjqqe.0001.usw2.cache.amazonaws.com"
+  - set "redis.shard5.host" "us0701abg-cc006.0pjqqe.0001.usw2.cache.amazonaws.com"
+  - set "redis.shard2.host" "us0701abg-cc003.0pjqqe.0001.usw2.cache.amazonaws.com"
+  - set "redis.shard6.host" "us0701abg-cc007.0pjqqe.0001.usw2.cache.amazonaws.com"
+  - set "redis.shard7.host" "us0701abg-cc008.0pjqqe.0001.usw2.cache.amazonaws.com"
+  - set "redis.shard8.host" "us0701abg-cc009.0pjqqe.0001.usw2.cache.amazonaws.com"
+  - set "redis.shard9.host" "us0701abg-cc010.0pjqqe.0001.usw2.cache.amazonaws.com"
+  - set "redis.shard10.host" "us0701abg-cc011.0pjqqe.0001.usw2.cache.amazonaws.com"
+  - set "redis.shard11.host" "us0701abg-cc012.0pjqqe.0001.usw2.cache.amazonaws.com"
+  - set "redis.shard12.host" "us0701abg-cc013.0pjqqe.0001.usw2.cache.amazonaws.com"
+  - set "redis.shard13.host" "us0701abg-cc014.0pjqqe.0001.usw2.cache.amazonaws.com"
+  - set "redis.shard14.host" "us0701abg-cc015.0pjqqe.0001.usw2.cache.amazonaws.com"
+  - set "redis.shard15.host" "us0701abg-cc016.0pjqqe.0001.usw2.cache.amazonaws.com"
+  - set "redis.shard16.host" "us0701abg-cc017.0pjqqe.0001.usw2.cache.amazonaws.com"
+  - set "redis.shard17.host" "us0701abg-cc018.0pjqqe.0001.usw2.cache.amazonaws.com"
+  - set "redis.sdk.host" "us0701abg-cc019.0pjqqe.ng.0001.usw2.cache.amazonaws.com"
+  - set "redis.timeout.milliseconds" "2000"
+  - set "redis.useractivity.host" "us0701abg-cc019.0pjqqe.ng.0001.usw2.cache.amazonaws.com"
+  - set "redis.useractivity.ttlinseconds" "172800"
+  - set "redis.lasttimeseen.host" "us0701abg-cc019.0pjqqe.ng.0001.usw2.cache.amazonaws.com"
+  - set "redis.pool.maxTotal" "200"
+  - set "redis.pool.maxIdle" "200"
+  - set "redis.pool.maxWaitMillis" "200"
