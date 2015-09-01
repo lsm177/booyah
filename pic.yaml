@@ -1,12 +1,12 @@
 ## generated
 ## branch: bigerator_3.18.167661-20150729175108_us0701-prod
-## comment: Map Service dump for Initial deploy.
+## comment: OPS-13554
 
 bigerator:
   /local/tomcat/webapps/bigerator/WEB-INF/classes/local.properties:
   - set "bigerator.redis.shard.executor.pool.size" "9000"
   - set "bigerator.redis.shard.executor.queue.capacity" "1800"
-  - set "bigerator.lr.query.limit" "1000"
+  - set "bigerator.lr.query.limit" "2000"
   - set "bigerator.common.interests.query.limit" "500"
   - set "bigerator.lasttimeseen.batch.get.limit" "500"
   - set "bigerator.redis.shard.executor.timeout.ms" "250"
